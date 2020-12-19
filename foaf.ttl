@@ -1,0 +1,33 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/MetoNovko/FOAF/master/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/MetoNovko/FOAF/master/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/MetoNovko/FOAF/master/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/MetoNovko/FOAF/master/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Novkovski" ;
+    foaf:givenname "Metodija" ;
+    foaf:homepage <https://www.facebook.com/meto.novkovski/> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl> ;
+            foaf:mbox_sha1sum "38193af0b7960dd1e1cf0457bde8d10f67c26450" ;
+            foaf:name "Angela Kralevska" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/jananikolovska/WBS/main/foaf.ttl> ;
+            foaf:mbox_sha1sum "4fdd4dd16f1bea78c19806b66eabec43eb123314" ;
+            foaf:name "Jana Nikolovska" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/amilovanovikj/FOAF/master/foaf.ttl> ;
+            foaf:mbox_sha1sum "0db9521917f41abc6e4c5e8363538a90070b20a1" ;
+            foaf:name "Andrej Milovanovikj" ] ;
+    foaf:mbox_sha1sum "02c27be1ded34acbba00c8468c2d40452582f628" ;
+    foaf:name "Metodija Novkovski" ;
+    foaf:nick "Meto" ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> ;
+    foaf:title "Mr" ;
+    foaf:workInfoHomepage <https://datarella.com/smartid/> ;
+    foaf:workplaceHomepage <https://datarella.com/> .
